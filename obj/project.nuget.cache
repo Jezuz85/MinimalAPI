@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mgvBrTkGX2o1w+MG5+We/1foKCCNeGLHyf93nlFpQuVneh8l25N25QdMFw+bDLzkGC1I464yN6QB+5WPi4mu4w==",
+  "dgSpecHash": "JRVjtMWZpS8zkkKdv3MysuDnYGXfryq8GrDlfGZjGShW3ocaBswdh29FsCmazxEfCEWVkHzMDLYpfZUUE5Ss0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus\\Downloads\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\jesus\\source\\repos\\MinimalAPI\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

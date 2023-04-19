@@ -4,9 +4,16 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        // Create a web application builder
         var builder = WebApplication.CreateBuilder(args);
+
+        // Add an in-memory database context called "TodoList" to the application's service container
         builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList"));
+
+        // Add an exception filter for the database developer pages to the application service container
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+        // Add an HTTP GET API endpoint at "/todoitems" that returns all items in the to-do list
         var app = builder.Build();
 
         app.MapGet("/todoitems", async (TodoDb db) =>
